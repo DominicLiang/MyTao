@@ -1,0 +1,20 @@
+﻿global using Microsoft.Extensions.DependencyInjection;
+global using Microsoft.Extensions.Configuration;
+global using Microsoft.Extensions.Logging;
+global using Microsoft.AspNetCore.Builder;
+global using Microsoft.EntityFrameworkCore;
+global using Microsoft.AspNetCore.Mvc;
+global using Swashbuckle.AspNetCore.SwaggerGen;
+global using Serilog.Formatting.Json;
+global using Serilog.Events;
+global using Serilog;
+global using Exceptionless;
+global using MediatR;
+global using Zack.Commons;
+global using Zack.EventBus;
+global using Commons.Token;
+global using Commons.AspNet.Filters;
+global using Commons.Token.Filters;
+global using Com.Ctrip.Framework.Apollo.Enums;
+global using Com.Ctrip.Framework.Apollo;
+

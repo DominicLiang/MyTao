@@ -1,0 +1,10 @@
+﻿global using System.Security.Claims;
+global using Microsoft.Extensions.Caching.Distributed;
+global using Microsoft.AspNetCore.Identity;
+global using Microsoft.Extensions.Options;
+global using IdentityService.Domain.Interface;
+global using IdentityService.Domain.Entities;
+global using IdentityService.Domain.Events;
+global using Zack.DomainCommons.Models;
+global using Commons.Token;
+global using MediatR;

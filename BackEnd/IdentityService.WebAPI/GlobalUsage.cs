@@ -1,0 +1,14 @@
+﻿global using System.ComponentModel.DataAnnotations;
+global using System.Security.Claims;
+global using Microsoft.AspNetCore.Identity;
+global using Microsoft.AspNetCore.Authorization;
+global using Microsoft.AspNetCore.Mvc;
+global using IdentityService.Domain.Entities;
+global using IdentityService.Domain.Events;
+global using IdentityService.Domain.Interface;
+global using IdentityService.Infrastructure.TokenProvider;
+global using IdentityService.Infrastructure.Database;
+global using IdentityService.WebAPI.ViewModels;
+global using Commons.Initializer;
+global using Commons.AspNet.Models;
+global using MediatR;

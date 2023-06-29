@@ -1,0 +1,21 @@
+﻿global using System.Text;
+global using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+global using Microsoft.Extensions.DependencyInjection;
+global using Microsoft.Extensions.Caching.Distributed;
+global using Microsoft.EntityFrameworkCore.Metadata.Builders;
+global using Microsoft.EntityFrameworkCore.Design;
+global using Microsoft.EntityFrameworkCore;
+global using Microsoft.AspNetCore.Identity;
+global using IdentityService.Domain.Entities;
+global using IdentityService.Domain.Interface;
+global using IdentityService.Domain;
+global using Zack.Commons;
+global using Microsoft.Extensions.Configuration;
+global using TencentCloud.Common;
+global using TencentCloud.Common.Profile;
+global using TencentCloud.Sms.V20210111;
+global using TencentCloud.Sms.V20210111.Models;
+global using IdentityService.Infrastructure.Services;
+global using MailKit.Net.Smtp;
+global using MimeKit;
+
